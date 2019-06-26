@@ -28,5 +28,3 @@ def print_prime(y, number):
 number1 = user_input()
 checker = prime_checker(number1)
 print_prime(checker,number1)
-
-
