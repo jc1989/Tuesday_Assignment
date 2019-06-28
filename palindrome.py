@@ -11,3 +11,4 @@ if pal_input == reverse_input:
     print(f"The word {pal_input} is a palindrome.")
 else:
     print(f"This is not a palindrome.")
+    print(reverse_input)
