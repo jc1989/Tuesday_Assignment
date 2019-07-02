@@ -10,7 +10,7 @@ def display_all_lists():
     for index in range(0,len(shopping_lists)):
         print(f"{index+1} - {shopping_lists[index].name}")
 
-#display 
+#display the array name, address, grocery list items
 def view_all_lists():
     for index in range(0,len(shopping_lists)):
         lists = shopping_lists[index]
@@ -18,12 +18,12 @@ def view_all_lists():
         for grocery_item in lists.grocery_items:
             print(f"{grocery_item.name} - ${grocery_item.price} - {grocery_item.quantity}")
 
-#make a menu:
+#Menu asking the user different choices:
 def user_menu():
     choice = input("\nEnter 1 to view all lists.\nEnter 2 to add an item to a list.\nEnter 3 to add a grocery item to the list.\nEnter q to quit.\n\n")
     return choice
 
-#ask what list to add an item to
+#asking what list to add an item to and then prompting the user with a name, price, and quantity to add an item to a chosen list.
 def add_item():
     while True:
         try:
@@ -38,7 +38,7 @@ def add_item():
             break
         except:
             print("Something went wrong\n")
-
+#appending the shopping list name and address to the array
 def add_list():
     name = input("\nEnter list name: \n")
     address = input("\nEnter an address: \n")
@@ -46,7 +46,7 @@ def add_list():
     shopping_lists.append(store)
 
 quit = False
-
+#while loop that determines what the users choice is and then if its not quit, will take the user to their desired path in menu
 while(quit != True):
     user_input = user_menu()
 
