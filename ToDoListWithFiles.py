@@ -60,7 +60,6 @@ def add_task():
         else:
             menu()
     menu()
-    
 
 def del_task():
     del_choice = input("\nTo continue, press 1\n" + "To quit to the menu, press q\n\n")
