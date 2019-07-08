@@ -1,0 +1,150 @@
+/*#heading-one{
+    background-color:rgb(168, 168, 204);
+}
+*/
+.background{
+    background-color:rgb(105, 150, 161);
+    background-image: url("images/90s2.jpg");
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold
+}
+
+.alt-background{
+    background-color:rgb(105, 150, 161);
+    background-image: url("images/alt-background2.jpg");
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold
+}
+
+.img{
+    width: 80%;
+    height: 30%
+}
+
+.imgc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    line-height:2.5
+  }
+
+.img2{
+    width: 500;
+    height: 500
+}
+
+
+
+a {
+    color:yellow;
+    text-decoration: none; /* No underline */
+    font-size: 24;
+
+}
+
+#text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:rgb(4, 170, 247);
+    font-size: 26;
+}
+
+#text2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:rgb(247, 4, 247);
+    font-size: 30;
+    padding:15px;
+    float: left;
+}
+
+#text3 {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:rgb(170, 4, 247);
+    font-size: 30;
+    float: right;
+}
+
+.content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:rgb(170, 4, 247);
+    font-size: 30;
+    padding:30px;
+}
+
+.content img {
+    padding: 25px;
+    width: 525px;
+    height: 525px;
+    float: left;
+}
+
+
+.center {
+    margin: 0 auto;
+    }
+   .awesome {
+     font-family: futura;
+     font-style: italic;
+     width:100%;
+     margin: 0 auto;
+     text-align: left;
+     color:#313131;
+     font-size:34px;
+     font-weight: bold;
+     position: static;
+     -webkit-animation:colorchange 20s infinite alternate;
+   }
+   @-webkit-keyframes colorchange {
+     0% {
+       color: blue;
+     }
+     10% {
+       color: #8e44ad;
+     }
+     20% {
+       color: #1abc9c;
+     }
+     30% {
+       color: #d35400;
+     }
+   
+     40% {
+   
+       color: blue;
+     }
+   
+     50% {
+   
+       color: #34495e;
+     }
+   
+     60% {
+   
+       color: blue;
+     }
+   
+     70% {
+   
+       color: #2980b9;
+     }
+     80% {
+   
+       color: #f1c40f;
+     }
+   
+     90% {
+   
+       color: #2980b9;
+     }
+   
+     100% {
+       color: pink;
+     }
+   }
