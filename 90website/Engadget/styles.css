@@ -1,0 +1,70 @@
+/*This is for most mobile devices (portrait mode)*/
+
+@media only screen and (min-width:320px) and (max-width: 480px) {
+    #menu{
+        flex-direction: column;
+        text-align:center;
+    }
+    #ad{
+        display:none;
+    }
+    #items img{
+        margin: 5px;
+        width:100%;
+        height: auto;
+        display:flex;
+        align-items:center;
+    }
+    #item{
+        width:100%;
+    }
+  }
+
+
+/*Media queries for desktop*/
+
+  @media (min-width: 481px) and (max-width: 1280px) {
+    #menu{
+        padding:0;
+    }
+    .item{
+        flex-direction:column;
+    }
+    #items img{
+        width:250px;
+        height:250px;
+    }
+  }
+
+#menu {
+    list-style: none; /*Remove bullet points*/
+    color:white;
+    display:flex;
+}
+
+#menu li{
+    margin: 20px 20px;
+}
+#items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: column;
+}
+
+
+.item{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin:10px;
+}
+
+.container{
+    width:100%;
+    background-color: black;
+}
+
+#ad{
+    width:100%;
+    background-color: black;
+}
