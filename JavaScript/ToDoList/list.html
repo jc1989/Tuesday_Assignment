@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel = "stylesheet" href = "list.css">
+    </head>
+    <body class = "heading">
+        <div class = "flexyBox">
+            <div class = "taskBoxDiv">
+                <p class = "taskBoxDiv"> Enter Task</p>
+                <input type = "text" class = "taskBox" id = "taskTextBox" placeholder = "Enter a task" />
+                <button class = "boxes" id = "saveButton" >Add</button>
+            </div> 
+            <div id = "divCenter">
+                <span class = "taskStatus">Pending Tasks</span>
+                <ul id = "pendingTasksList"></ul>
+            </div>
+            
+            <div id = "divCenter">
+                <span class = "taskStatus">Completed Tasks</span>
+                <ul id = "completedTasksList"></ul>
+            </div>
+        </div>
+    </body>
+    <script src = "list.js"></script>
+</html>

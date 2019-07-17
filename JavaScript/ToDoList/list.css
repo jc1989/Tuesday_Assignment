@@ -1,0 +1,93 @@
+ul
+{
+list-style-type: none;
+}
+
+
+.btn {
+    background:lightblue
+}
+
+.list-ul{
+    background: lightblue
+}
+
+.boxes{
+    background-color: rgb(0, 153, 255); 
+    height: 20px;
+    width: 80px;
+    color:white;
+    position: relative;
+    text-align: center;
+    font-size: 12;
+    display: inline-block;
+
+}
+
+.taskBoxes{
+    background-color: rgb(0, 153, 255); 
+    height: 20px;
+    width: 80px;
+    position: relative;
+    text-align: center;
+    font-size: 12;
+    display: inline-block;
+}
+
+.taskBox{
+    border: 1.45px solid gray;
+}
+
+.taskBoxDiv{
+    position:relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.taskStatus{
+    position: relative;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color:gray;
+    background-color:black;
+}
+
+.taskItem{
+    background-color:rgb(0, 153, 255);
+    color:white;
+    font-size:16;
+    height:20px;
+    width: 300px;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    justify-content: space-between;
+}
+
+.removeButton{
+    background-color: rgb(0, 153, 255);
+    color:white;
+    border: 0
+}
+
+.heading{
+    padding:10px;
+    align-content: right;
+    justify-content: flex-end;
+}
+
+.flexyBox{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.divCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
