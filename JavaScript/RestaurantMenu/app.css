@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+    padding:10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+}
+.bg{
+    /* background-image: url(pkn3VGP.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color:lightgray;
+}
+
+.hr{
+    margin: 10px 0px;
+    border-style: solid;
+    border-top: black;
+    border-width: 2px;
+}
+
+@media only screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+
+  .menuItems{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    margin:20px 50px 50px 50px; /*top-right-bottom-left*/
+  }
+
+  #menuImage{
+      height:200px;
+      width:200px;
+      float:left;
+      margin-right: 15px;
+  }
+
+  .innerMenuItems{
+    margin:8px;
+  }
+
+  #menuDescriptions{
+    height: 20px;
+    font-weight:bold;
+  }
+
+  body p{
+    color:gray;
+  }
+
+  select{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+  }
